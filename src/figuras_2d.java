@@ -2,8 +2,8 @@ public class figuras_2d {
     //areas y perimetros
 
     //atributos
-    int nlados;
-    float lado;
+    int nlados;//número de datos
+    float lado;//longitud de lado
 //CONSTRUCTOR
     public figuras_2d(int nlados,float lado) {
         this.nlados = nlados;
@@ -26,9 +26,17 @@ public class figuras_2d {
         this.nlados = nlados;
     }
 //FUNCIONES
-    public float areacuadrado(){
+    public float areacuadrado(int lado){
+        return this.lado*this.lado;
     }
     private float perimetrocuadrado(){
-
+        return 0;
     }
+    public float areatriangulo(){
+        return  0;
+    }
+    private float perimetrotirangulo(){
+        return 0;
+    }
+
 }
